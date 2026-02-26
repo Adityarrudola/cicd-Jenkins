@@ -5,7 +5,7 @@ pipeline {
         DOCKER_REPO = "adityarrudola/react-app"
         IMAGE_NAME = "${DOCKER_REPO}:${BUILD_NUMBER}"
         RESOURCE_GROUP = "aditya"
-        ACI_NAME = "react-app-container"
+        ACI_NAME = "azure-sp"
     }
 
     
