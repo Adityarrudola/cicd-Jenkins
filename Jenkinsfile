@@ -19,7 +19,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/Adityarrudola/Three-Tier-App-Jenkins.git', branch: 'main'
+                git url: 'https://github.com/Adityarrudola/cicd-Jenkins.git', branch: 'main'
             }
         }
 
